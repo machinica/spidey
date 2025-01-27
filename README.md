@@ -3,7 +3,7 @@
 ### Overview
 This project is a web crawler developed by Taylor Jolin, designed to extract and save web pages from a specified website. It uses Selenium and BeautifulSoup to navigate and scrape content while ensuring that the downloaded pages maintain their styling and images for offline viewing. The tool allows users to specify the website URL, target sub-paths, and CSS selectors to refine the crawling process.
 
-**Features**
+### Features
 - Automated Web Crawling: Extracts links from a specified webpage.
 - Headless Chrome Scraping: Uses a headless Chrome browser to fetch pages.
 - CSS and Image Embedding: Ensures that scraped pages retain their original styling and images.
@@ -16,13 +16,13 @@ Before running the web crawler, install the required dependencies:
 
 ``pip install -r requirements.txt``
 
-**Usage**
+## Usage
 
 Run the web crawler using:
 
 ``python3 spidey.py``
 
-**Enter the requested details interactively:**
+## Enter the requested details interactively:
 
 - Website URL: The base URL of the website to crawl (e.g., https://www.example.com).
 - Path to Crawl: Optional sub-directory to focus on (e.g., docs/).
@@ -30,7 +30,7 @@ Run the web crawler using:
 - Output Directory: Where the scraped pages will be saved.
 - Subfolder Creation: Optionally create a new folder named after the website domain.
 
-**How It Works**
+## How It Works
 
 - Clears the Terminal - Provides a clean UI when starting the script.
 - Configures Readline Autocompletion - Enables file path autocompletion for input fields.
@@ -45,7 +45,7 @@ Run the web crawler using:
     -  Logs Progress and Errors - Displays messages for each step, including errors encountered.
     -  Closes the Browser - Ensures the WebDriver is terminated properly after execution.
 
-**Requirements**
+## Requirements
 - Python 3.x
 - Google Chrome installed
 
@@ -53,14 +53,14 @@ Install dependencies using:
 
 ``pip install -r requirements.txt``
 
-**Dependencies**
+## Dependencies
 - selenium
 - webdriver-manager
 - beautifulsoup4
 - requests
 - logging
 
-**Example Output**
+## Example Output
 
 After execution, the output directory will contain:
 
@@ -71,7 +71,7 @@ After execution, the output directory will contain:
 
 Each HTML file retains the original page's styling and images, making it fully viewable offline.
 
-**Notes**
+##Notes
 If the Chrome browser is not installed or outdated, webdriver-manager will handle the correct driver installation.
 The script waits for JavaScript-rendered content before extracting links.
 
