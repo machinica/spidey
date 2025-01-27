@@ -71,12 +71,12 @@ After execution, the output directory will contain:
 
 Each HTML file retains the original page's styling and images, making it fully viewable offline.
 
-##Notes
+## Notes
 If the Chrome browser is not installed or outdated, webdriver-manager will handle the correct driver installation.
 The script waits for JavaScript-rendered content before extracting links.
 
 Errors encountered while fetching links or downloading pages will be logged.
 
-**License**
+## License
 This project is open for free use and modification by anyone.
 
