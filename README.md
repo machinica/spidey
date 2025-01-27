@@ -20,7 +20,7 @@ Before running the web crawler, install the required dependencies:
 
 Run the web crawler using:
 
-``python3 web_crawl.py``
+``python3 spidey.py``
 
 **Enter the requested details interactively:**
 
